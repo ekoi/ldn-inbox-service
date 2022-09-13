@@ -1,0 +1,7 @@
+{
+  "@context": "https://json-ld.org/contexts/person.jsonld",
+  "@id": "http://dbpedia.org/resource/Eko_Indarto",
+  "name": "Eko Indarto",
+  "born": "2045-08-17",
+  "child": "http://dbpedia.org/resource/Amal_Khairunnisa"
+}

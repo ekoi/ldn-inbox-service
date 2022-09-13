@@ -1,0 +1,23 @@
+[DEVELOPMENT]
+fastapi_title = "DANS LDN Inbox Service"
+fastapi_description = "This service supports .."
+
+#logs
+log_file = "../logs/ldn-inbox.log"
+log_level = 10
+log_format = "%(asctime)s %(levelname)s %(name)s %(threadName)s : %(message)s"
+#Note: below the list of logging level
+#CRITICAL = 50
+#ERROR = 40
+#WARNING = 30
+#INFO = 20
+#DEBUG = 10
+#xsl location
+db_driver = "sqlite3"
+#data_db_file = "@format {env[BASE_DIR]}/data/db/dans_inbox.db"
+data_db_file = "../data/db/dans_inbox.db"
+[staging]
+
+[testing]
+
+[production]

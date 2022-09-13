@@ -127,3 +127,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+/src/conf/.secrets.toml
+/data/db/dans_inbox.db

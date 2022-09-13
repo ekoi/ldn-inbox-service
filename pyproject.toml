@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "ldn-inbox-service"
+version = "0.1.5"
+description = ""
+authors = ["eko indarto <eko.indarto@dans.knaw.nl>"]
+include = ["resources/*", "logs/*", "data"]
+
+packages = [
+    { include = "src" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+#rdflib-neo4j = {path = "rdflib_neo4j-0.0.1b1-py3-none-any.whl"}
+fastapi = "^0.73.0"
+uvicorn = "^0.17.4"
+activitystreams2 = "^0.5.0"
+dynaconf = "^3.1.9"
+rdflib = "^6.2.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

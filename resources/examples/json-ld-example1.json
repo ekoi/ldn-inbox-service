@@ -1,0 +1,8 @@
+{
+  "@context": "https://library.standards.org/publicationTypes",
+  "@id": "",
+  "@type": "JournalArticle",
+  "title": "My article on Linked Data Notifications",
+  "date": "2021",
+  "creator": "https://hochstenbach.solidcommunity.net/profile/card#me"
+}

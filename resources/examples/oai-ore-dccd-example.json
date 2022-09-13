@@ -1,0 +1,309 @@
+{
+    "dcterms:modified": "2022-07-28",
+    "dcterms:creator": "DataverseNL",
+    "@type": "ore:ResourceMap",
+    "@id": "https://dataverse.nl/api/datasets/export?exporter=OAI_ORE&persistentId=doi:10.34894/TEQ9YA",
+    "ore:describes": {
+        "dccd:Object Type": "farmhouse",
+        "dccd:Project Type": "dating",
+        "dccd:Project Category": "built heritage",
+        "Title": "Vakwerkboerderij (herberg) in Remersdaal, België. Projectnummer dendrochronologie (Stichting RING): 2010042",
+        "dccd:Principal Investigator": "M. Dominguez-Delmas",
+        "citation:Distribution Date": "2011-11-24",
+        "dccd:Element Type": [
+            "beam",
+            "post",
+            "superimposed tiebeam"
+        ],
+        "Subject": [
+            "Arts and Humanities",
+            "Earth and Environmental Sciences"
+        ],
+        "dccd:Taxon": [
+            "Pinus sylvestris L.",
+            "Quercus"
+        ],
+        "Author": [
+            {
+                "author:Name": "Marta Domínguez Delmás",
+                "author:Affiliation": "Stichting RING",
+                "Identifier Scheme": "ORCID",
+                "Identifier": "0000-0001-8716-0258"
+            },
+            {
+                "author:Name": "Dieuwertje Duijn",
+                "author:Affiliation": "Stichting RING",
+                "Identifier Scheme": "ORCID",
+                "Identifier": "0000-0003-0543-9103"
+            },
+            {
+                "author:Name": "Esther Jansma",
+                "author:Affiliation": "Stichting RING",
+                "Identifier Scheme": "ORCID",
+                "Identifier": "0000-0003-1690-2976"
+            }
+        ],
+        "dccd:Location": {
+            "dccd-location:Latitude": "50.730596",
+            "dccd-location:Longitude": "5.87945"
+        },
+        "citation:Description": {"dsDescription:Text": "Dendrochronological research project"},
+        "citation:Other ID": [
+            {
+                "otherId:Agency": "Digital Collaboratory for Cultural Dendrochronology (DCCD)",
+                "otherId:Identifier": "dccd:4077"
+            },
+            {
+                "otherId:Agency": "Rijksmonumentenregister",
+                "otherId:Identifier": "15756"
+            },
+            {
+                "otherId:Agency": "Stichting RING",
+                "otherId:Identifier": "P:2010042"
+            },
+            {
+                "otherId:Agency": "Stichting RING",
+                "otherId:Identifier": "RDB"
+            },
+            {
+                "otherId:Agency": "Rijksmonumentenregister",
+                "otherId:Identifier": "22565"
+            }
+        ],
+        "citation:Contact": {
+            "datasetContact:Name": "Jansma, E.",
+            "datasetContact:Affiliation": "Rijksdienst voor het Cultureel Erfgoed"
+        },
+        "@id": "doi:10.34894/TEQ9YA",
+        "@type": [
+            "ore:Aggregation",
+            "schema:Dataset"
+        ],
+        "schema:version": "4.3",
+        "schema:name": "Vakwerkboerderij (herberg) in Remersdaal, België. Projectnummer dendrochronologie (Stichting RING): 2010042",
+        "schema:dateModified": "2022-07-28 18:05:55.041",
+        "schema:datePublished": "2021-09-27",
+        "dvcore:termsOfUse": "<img src=\"https://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png\"/> Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) <a href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/\">https://creativecommons.org/licenses/by-nc-nd/4.0/<\/a>",
+        "dvcore:fileTermsOfAccess": {"dvcore:fileRequestAccess": true},
+        "schema:includedInDataCatalog": "DataverseNL",
+        "ore:aggregates": [
+            {
+                "schema:description": "Summary of results\n",
+                "schema:name": "2010042 DateringsRapport.pdf",
+                "dvcore:restricted": false,
+                "schema:version": 1,
+                "dvcore:datasetVersionId": 23127,
+                "@id": "https://dataverse.nl/file.xhtml?fileId=300238",
+                "schema:sameAs": "https://dataverse.nl/api/access/datafile/300238",
+                "@type": "ore:AggregatedResource",
+                "schema:fileFormat": "application/pdf",
+                "dvcore:filesize": 4689,
+                "dvcore:storageIdentifier": "file://181b4f0a71c-7eef3bcb3775",
+                "dvcore:rootDataFileId": -1,
+                "dvcore:checksum": {
+                    "@type": "MD5",
+                    "@value": "f671ec3881834ae05c398445078e11d0"
+                }
+            },
+            {
+                "schema:description": "",
+                "schema:name": "2010042RDB adm.pdf",
+                "dvcore:restricted": true,
+                "dvcore:directoryLabel": "associated",
+                "schema:version": 1,
+                "dvcore:datasetVersionId": 23127,
+                "@id": "https://dataverse.nl/file.xhtml?fileId=174431",
+                "schema:sameAs": "https://dataverse.nl/api/access/datafile/174431",
+                "@type": "ore:AggregatedResource",
+                "schema:fileFormat": "application/pdf",
+                "dvcore:filesize": 61033,
+                "dvcore:storageIdentifier": "file://17c1c5dd06c-cb9f7c4d764e",
+                "dvcore:rootDataFileId": -1,
+                "dvcore:checksum": {
+                    "@type": "MD5",
+                    "@value": "7b5c4457acb3a09f5f1570dcaacf1c82"
+                }
+            },
+            {
+                "schema:description": "",
+                "schema:name": "2010042.xml",
+                "dvcore:restricted": false,
+                "dvcore:directoryLabel": "originalvalues",
+                "schema:version": 1,
+                "dvcore:datasetVersionId": 23127,
+                "@id": "https://dataverse.nl/file.xhtml?fileId=174432",
+                "schema:sameAs": "https://dataverse.nl/api/access/datafile/174432",
+                "@type": "ore:AggregatedResource",
+                "schema:fileFormat": "text/xml",
+                "dvcore:filesize": 9964,
+                "dvcore:storageIdentifier": "file://17c1c5dd1a0-92614fff5f16",
+                "dvcore:rootDataFileId": -1,
+                "dvcore:checksum": {
+                    "@type": "MD5",
+                    "@value": "edaa10247e28c886800d989852123421"
+                }
+            },
+            {
+                "schema:description": "Lab logbook ",
+                "schema:name": "Logbook 2010042 RDB.pdf",
+                "dvcore:restricted": false,
+                "schema:version": 1,
+                "dvcore:datasetVersionId": 23127,
+                "@id": "https://dataverse.nl/file.xhtml?fileId=221688",
+                "schema:sameAs": "https://dataverse.nl/api/access/datafile/221688",
+                "@type": "ore:AggregatedResource",
+                "schema:fileFormat": "application/pdf",
+                "dvcore:filesize": 589239,
+                "dvcore:storageIdentifier": "file://17e9aa8faf4-6f327072c8cb",
+                "dvcore:rootDataFileId": -1,
+                "dvcore:checksum": {
+                    "@type": "MD5",
+                    "@value": "60bd3e778c067ec743236198db72d699"
+                }
+            },
+            {
+                "schema:description": "",
+                "schema:name": "RDB00011.fh",
+                "dvcore:restricted": false,
+                "dvcore:directoryLabel": "originalvalues",
+                "schema:version": 1,
+                "dvcore:datasetVersionId": 23127,
+                "@id": "https://dataverse.nl/file.xhtml?fileId=174436",
+                "schema:sameAs": "https://dataverse.nl/api/access/datafile/174436",
+                "@type": "ore:AggregatedResource",
+                "schema:fileFormat": "text/plain",
+                "dvcore:filesize": 650,
+                "dvcore:storageIdentifier": "file://17c1c5dd6c2-8555c1998878",
+                "dvcore:rootDataFileId": -1,
+                "dvcore:checksum": {
+                    "@type": "MD5",
+                    "@value": "9129f7b500eb437c7886951b3b69e4a3"
+                }
+            },
+            {
+                "schema:description": "",
+                "schema:name": "RDB00021.fh",
+                "dvcore:restricted": false,
+                "dvcore:directoryLabel": "originalvalues",
+                "schema:version": 1,
+                "dvcore:datasetVersionId": 23127,
+                "@id": "https://dataverse.nl/file.xhtml?fileId=174435",
+                "schema:sameAs": "https://dataverse.nl/api/access/datafile/174435",
+                "@type": "ore:AggregatedResource",
+                "schema:fileFormat": "text/plain",
+                "dvcore:filesize": 640,
+                "dvcore:storageIdentifier": "file://17c1c5dd572-fe065c270678",
+                "dvcore:rootDataFileId": -1,
+                "dvcore:checksum": {
+                    "@type": "MD5",
+                    "@value": "f9e64b47a92c6630469de279d019cbb0"
+                }
+            },
+            {
+                "schema:description": "",
+                "schema:name": "RDB00030.fh",
+                "dvcore:restricted": false,
+                "dvcore:directoryLabel": "originalvalues",
+                "schema:version": 1,
+                "dvcore:datasetVersionId": 23127,
+                "@id": "https://dataverse.nl/file.xhtml?fileId=174433",
+                "schema:sameAs": "https://dataverse.nl/api/access/datafile/174433",
+                "@type": "ore:AggregatedResource",
+                "schema:fileFormat": "text/plain",
+                "dvcore:filesize": 655,
+                "dvcore:storageIdentifier": "file://17c1c5dd2ec-699af4670fbf",
+                "dvcore:rootDataFileId": -1,
+                "dvcore:checksum": {
+                    "@type": "MD5",
+                    "@value": "636d408f2ebcf5857a9d186d04d407bd"
+                }
+            },
+            {
+                "schema:description": "",
+                "schema:name": "RDB00031.fh",
+                "dvcore:restricted": false,
+                "dvcore:directoryLabel": "originalvalues",
+                "schema:version": 1,
+                "dvcore:datasetVersionId": 23127,
+                "@id": "https://dataverse.nl/file.xhtml?fileId=174434",
+                "schema:sameAs": "https://dataverse.nl/api/access/datafile/174434",
+                "@type": "ore:AggregatedResource",
+                "schema:fileFormat": "text/plain",
+                "dvcore:filesize": 549,
+                "dvcore:storageIdentifier": "file://17c1c5dd424-d653a10b1daf",
+                "dvcore:rootDataFileId": -1,
+                "dvcore:checksum": {
+                    "@type": "MD5",
+                    "@value": "169e4087e70888e39f3ed04ca5197788"
+                }
+            },
+            {
+                "schema:description": "",
+                "schema:name": "RDB00032.fh",
+                "dvcore:restricted": false,
+                "dvcore:directoryLabel": "originalvalues",
+                "schema:version": 1,
+                "dvcore:datasetVersionId": 23127,
+                "@id": "https://dataverse.nl/file.xhtml?fileId=174437",
+                "schema:sameAs": "https://dataverse.nl/api/access/datafile/174437",
+                "@type": "ore:AggregatedResource",
+                "schema:fileFormat": "text/plain",
+                "dvcore:filesize": 549,
+                "dvcore:storageIdentifier": "file://17c1c5dd820-51ca4de90297",
+                "dvcore:rootDataFileId": -1,
+                "dvcore:checksum": {
+                    "@type": "MD5",
+                    "@value": "bb4c51379790cf7f48ee8758f1ea12fd"
+                }
+            },
+            {
+                "schema:description": "",
+                "schema:name": "tridas.xml",
+                "dvcore:restricted": false,
+                "schema:version": 1,
+                "dvcore:datasetVersionId": 23127,
+                "@id": "https://dataverse.nl/file.xhtml?fileId=174430",
+                "schema:sameAs": "https://dataverse.nl/api/access/datafile/174430",
+                "@type": "ore:AggregatedResource",
+                "schema:fileFormat": "text/xml",
+                "dvcore:filesize": 29209,
+                "dvcore:storageIdentifier": "file://17c1c5dcf4f-b55e7c5c14c3",
+                "dvcore:rootDataFileId": -1,
+                "dvcore:checksum": {
+                    "@type": "MD5",
+                    "@value": "c14ec62b98aa1d191dee641c10486d6b"
+                }
+            }
+        ],
+        "schema:hasPart": [
+            "https://dataverse.nl/file.xhtml?fileId=300238",
+            "https://dataverse.nl/file.xhtml?fileId=174431",
+            "https://dataverse.nl/file.xhtml?fileId=174432",
+            "https://dataverse.nl/file.xhtml?fileId=221688",
+            "https://dataverse.nl/file.xhtml?fileId=174436",
+            "https://dataverse.nl/file.xhtml?fileId=174435",
+            "https://dataverse.nl/file.xhtml?fileId=174433",
+            "https://dataverse.nl/file.xhtml?fileId=174434",
+            "https://dataverse.nl/file.xhtml?fileId=174437",
+            "https://dataverse.nl/file.xhtml?fileId=174430"
+        ]
+    },
+    "@context": {
+        "Author": "http://purl.org/dc/terms/creator",
+        "Identifier": "http://purl.org/spar/datacite/AgentIdentifier",
+        "Identifier Scheme": "http://purl.org/spar/datacite/AgentIdentifierScheme",
+        "Subject": "http://purl.org/dc/terms/subject",
+        "Title": "http://purl.org/dc/terms/title",
+        "author": "https://dataverse.org/schema/citation/author#",
+        "citation": "https://dataverse.org/schema/citation/",
+        "datasetContact": "https://dataverse.org/schema/citation/datasetContact#",
+        "dccd": "https://dataverse.nl/schema/dccd#",
+        "dccd-location": "https://dataverse.nl/schema/dccd/dccd-location#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dsDescription": "https://dataverse.org/schema/citation/dsDescription#",
+        "dvcore": "https://dataverse.org/schema/core#",
+        "ore": "http://www.openarchives.org/ore/terms/",
+        "otherId": "https://dataverse.org/schema/citation/otherId#",
+        "schema": "http://schema.org/"
+    }
+}
